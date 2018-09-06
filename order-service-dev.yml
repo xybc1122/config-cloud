@@ -1,19 +1,6 @@
   #注册中心
 server:
   port: 8880
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://127.0.0.1:8660/eureka/
-  #给服务取个名称
-spring:
-  application:
-    name: order-service
-  redis:
-    database: 0
-    host: 192.168.3.222
-    timeout: 2000
-    port: 6380
 #zipkin服务所在地址
   zipkin:
     base-url: http://192.168.3.222:9411/
@@ -43,6 +30,7 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 4000
+#actuator监控追踪 *代表打印全部
 management:
   endpoints:
     web:
