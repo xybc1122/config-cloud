@@ -7,5 +7,5 @@ server:
   sleuth:
     sampler:
       probability: 1
-env: test
+env: 2018
 branch: master
