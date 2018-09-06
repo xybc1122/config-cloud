@@ -1,5 +1,5 @@
 server:
-  port: 8771
+  port: 8770
 #zipkin服务所在地址
   zipkin:
     base-url: http://192.168.3.222:9411/
