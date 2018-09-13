@@ -8,7 +8,7 @@ zuul:
     product-service: /apigateway/product/**
   #添加ignored-patterns只能通过/apigateway/** 去访问
   ignored-patterns: /*-service/**
-  #处理http请求头为空的问题
+  #处理http请求头Cookie为空的问题
   sensitiveHeaders:
   #忽略整个服务，对外提供接口
   #ignored-services: product-service
