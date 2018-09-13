@@ -9,18 +9,3 @@ server:
       probability: 1
 env: 多节点测试
 branch: master
-#rabbitmq消息中间件
-spring:
-  rabbitmq:
-    host: 192.168.3.222
-    port: 5671
-    username: guest
-    password: guest
-      #读取哪个分支
-      label: master
-#actuator监控追踪 *代表打印全部
-  management:
-    endpoints:
-      web:
-        exposure:
-          include: "*"
