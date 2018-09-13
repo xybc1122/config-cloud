@@ -11,7 +11,7 @@ env: 多节点测试
 branch: master
 #rabbitmq消息中间件
 spring:
-rabbitmq:
+  rabbitmq:
     host: 192.168.3.222
     port: 5671
     username: guest
@@ -19,7 +19,7 @@ rabbitmq:
       #读取哪个分支
       label: master
 #actuator监控追踪 *代表打印全部
-management:
+  management:
     endpoints:
       web:
         exposure:
