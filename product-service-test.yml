@@ -12,11 +12,11 @@ branch: master
 rabbitmq消息中间件
   rabbitmq:
     host: 192.168.3.222
-     port: 5671
+    port: 5671
     username: guest
     password: guest
       #读取哪个分支
-      #label: master
+      label: master
 actuator监控追踪 *代表打印全部
 management:
     endpoints:
