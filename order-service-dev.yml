@@ -8,8 +8,8 @@ spring:
 server:
   port: 8880
 #zipkin服务所在地址
-  zipkin:
-    base-url: http://192.168.3.222:9411/
+  #zipkin:
+    #base-url: http://192.168.3.222:9411/
 #配置采样百分比 开发环境可以设置为1=100%
   sleuth:
     sampler:
