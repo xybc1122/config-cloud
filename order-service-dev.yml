@@ -1,4 +1,10 @@
-  #注册中心
+spring:  
+ redis:
+  database: 0
+  host: 192.168.3.222
+  timeout: 2000
+  port: 6380
+#注册中心
 server:
   port: 8880
 #zipkin服务所在地址
