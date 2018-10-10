@@ -6,6 +6,7 @@ zuul:
   #服务名路由称映射
     order-service: /apigateway/order/**
     product-service: /apigateway/product/**
+    user-service: /apigateway/user/**
   #添加ignored-patterns只能通过/apigateway/** 去访问
   ignored-patterns: /*-service/**
   #处理http请求头Cookie为空的问题
